@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KURSANT.UZ — Harbiy ta'lim platformasi</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#07130e;color:#f3f7f4}
+header{padding:18px 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #234536;background:#0a1912}
+.logo{font-size:25px;font-weight:800;letter-spacing:1px}.logo span{color:#8fcf63}
+nav a{color:#dce9df;text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:80px 7% 65px;background:linear-gradient(135deg,#0b2016,#102d20)}
+.hero small{color:#9dd56f;font-weight:bold;letter-spacing:2px}
+.hero h1{font-size:52px;max-width:720px;margin:15px 0}.hero p{max-width:650px;color:#b9c9bf;line-height:1.7}
+.btn{display:inline-block;margin-top:28px;background:#8fcf63;color:#07130e;padding:14px 24px;border-radius:9px;text-decoration:none;font-weight:bold}
+section{padding:55px 7%}.title{text-align:center;margin-bottom:30px}.title h2{font-size:30px}.title p{color:#9eafa4;margin-top:8px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#0d2118;border:1px solid #234536;border-radius:14px;padding:25px;min-height:150px}
+.icon{font-size:30px}.card h3{margin:14px 0 8px}.card p{color:#9eafa4;line-height:1.5;font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.stat{background:#0d2118;border:1px solid #234536;padding:22px;border-radius:12px;text-align:center}
+.stat b{display:block;font-size:30px;color:#9dd56f}.stat span{color:#9eafa4;font-size:13px}
+footer{text-align:center;padding:30px;color:#82978b;border-top:1px solid #234536}
+@media(max-width:700px){nav{display:none}.hero h1{font-size:37px}.cards,.stats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">KURSANT<span>.UZ</span></div>
+  <nav>
+    <a href="#darslar">Darslar</a><a href="#testlar">Testlar</a><a href="#terminlar">Terminlar</a><a href="#reyting">Reyting</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <small>HARBIY TA'LIM PLATFORMASI</small>
+  <h1>Bilim. Intizom. Tayyorgarlik.</h1>
+  <p>KURSANT.UZ — harbiy ta'lim yo'nalishida tahsil olayotgan talabalar uchun darslar, testlar, terminlar va o'quv materiallarini bir joyga jamlaydigan zamonaviy platforma.</p>
+  <a class="btn" href="#darslar">O'qishni boshlash →</a>
+</div>
+
+<section id="darslar">
+  <div class="title"><h2>Ta'lim bo'limlari</h2><p>Kerakli mavzuni tanlang va bilimlaringizni mustahkamlang.</p></div>
+  <div class="cards">
+    <div class="card"><div class="icon">📚</div><h3>Darslar</h3><p>Harbiy ta'lim fanlari bo'yicha konspekt va o'quv materiallari.</p></div>
+    <div class="card" id="testlar"><div class="icon">📝</div><h3>Testlar</h3><p>Mavzular bo'yicha test ishlang va natijangizni ko'ring.</p></div>
+    <div class="card" id="terminlar"><div class="icon">🎖️</div><h3>Terminlar lug'ati</h3><p>Harbiy atamalarni tez toping va sodda izohini o'qing.</p></div>
+  </div>
+</section>
+
+<section id="reyting">
+  <div class="title"><h2>KURSANT.UZ statistikasi</h2><p>Keyinchalik bu raqamlar real ma'lumotlar bilan ishlaydi.</p></div>
+  <div class="stats">
+    <div class="stat"><b>0</b><span>Kursant</span></div>
+    <div class="stat"><b>0</b><span>Dars</span></div>
+    <div class="stat"><b>0</b><span>Test savoli</span></div>
+    <div class="stat"><b>0</b><span>Termin</span></div>
+  </div>
+</section>
+
+<footer>© 2026 KURSANT.UZ — Harbiy ta'lim platformasi</footer>
+</body>
+</html>
